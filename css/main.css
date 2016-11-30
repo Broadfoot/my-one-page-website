@@ -1,14 +1,6 @@
-/*! HTML5 Boilerplate v5.3.0 | MIT License | https://html5boilerplate.com/ */
 
-/*
- * What follows is the result of much research on cross-browser styling.
- * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
- * Kroc Camen, and the H5BP dev community and team.
- */
 
-/* ==========================================================================
-   Base styles: opinionated defaults
-   ========================================================================== */
+
 
 html {
     color: #222;
@@ -23,6 +15,7 @@ html {
  * These selection rule sets have to be separate.
  * Customize the background color to match your design.
  */
+
 
 ::-moz-selection {
     background: #b3d4fc;
@@ -46,6 +39,7 @@ hr {
     margin: 1em 0;
     padding: 0;
 }
+
 
 /*
  * Remove the gap between audio, canvas, iframes,
@@ -95,16 +89,55 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+#nav {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    list-style: none;
+    background-color: orange;
+    height: 80px;
+}
 
+#nav ul {
+    list-style: none;
+}
 
+#nav ul li {
+        display: inline-block;
+        margin-top: 0vh;
+        font: 20px bold;
+        padding-right: 5%;
+        padding-left: 5%;
+        position: relative;
+}
 
+#nav ul li a {
+    text-decoration: none;
+    color: black;
+}
 
+#nav:hover ul li {
+        cursor: pointer;
+}
 
+#section1 {
+    text-align: center;
+    padding-top: 80px;
+    height: 90vh;
+}
 
+#section2 {
+    text-align: center;
+    padding-top: 80px;
+    height: 90vh
+}
 
-
-
-
+#section3 {
+    text-align: center;
+    padding-top: 80px;
+    height: 90vh;
+}
 
 
 
@@ -280,3 +313,5 @@ textarea {
         page-break-after: avoid;
     }
 }
+
+
