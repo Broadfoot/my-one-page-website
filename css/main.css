@@ -5,7 +5,7 @@
 html {
     color: #222;
     font-size: 1em;
-    line-height: 1.4;
+    line-height: 1.4; 
 }
 
 /*
@@ -89,57 +89,89 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
-#nav {
+nav {
     width: 100%;
     position: fixed;
     top: 0;
     left: 0;
-    list-style: none;
     background-color: orange;
     height: 80px;
+    z-index: 1;
 }
 
-#nav ul {
+nav ul {
     list-style: none;
 }
 
-#nav ul li {
+nav ul li {
         display: inline-block;
-        margin-top: 0vh;
+        margin-top: 0;
         font: 20px bold;
-        padding-right: 5%;
-        padding-left: 5%;
-        position: relative;
 }
 
-#nav ul li a {
+nav ul li a {
     text-decoration: none;
     color: black;
 }
 
-#nav:hover ul li {
+nav:hover ul li {
         cursor: pointer;
 }
 
+section {
+    text-align: center;
+    padding-top: 80px;
+    height: 100vh;
+}
+.section1-container {
+    background-color: gray;
+}
 #section1 {
-    text-align: center;
-    padding-top: 80px;
-    height: 90vh;
+    color: white;
 }
-
+.section2-container {
+    background-color: black;
+}
 #section2 {
-    text-align: center;
-    padding-top: 80px;
-    height: 90vh
+    color: white;
 }
-
+.section3-container {
+    background-color: blue;
+}
 #section3 {
-    text-align: center;
-    padding-top: 80px;
-    height: 90vh;
+    color: white;
 }
 
 
+#navbutton {
+    color: black;
+    font-family: 'Bungee', cursive;
+    font: bold;
+    text-decoration: none;
+    margin-top: 50px;
+    position: relative;
+    text-align: center;
+}
+
+#section2color {
+    background-color: black;
+}
+
+#section2color2 {
+    background-color: black;
+}
+
+#section2color3 {
+    background-color: black;
+}
+
+
+img {
+    width: 15vw;
+    height: 15vw;
+    border-radius: 100px;
+    box-sizing: border-box;
+}
 
 
 
